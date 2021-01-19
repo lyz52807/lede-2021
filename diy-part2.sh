@@ -14,7 +14,7 @@ git clone https://github.com/vernesong/OpenClash package/openclash
 git clone https://github.com/jerrykuku/lua-maxminddb package/lua-maxmindd
 git clone https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus package/luci-app-jd-dailybonus
-rm -rf package/lean/luci-theme-argon
+rm -rf ./package/lean/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/lean/luci-theme-argon
 ./scripts/feeds update -a
 ./scripts/feeds install -a
